@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transparent Login Form</title>
+    <!-- CSS LINK  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOX ICONS CDN LINK  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h3>Transparent Login Form</h3>
+        <h5>Welcome</h5>
+        <form>
+          <div class="input">
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input password">
+            <input type="password" id="password" placeholder="Password" />
+            <span class="password-show-hide">
+              <i class="bx bx-hide"></i>
+            </span>
+          </div>
+          <div class="input">
+            <button type="submit" class="btn">sign in</button>
+          </div>
+          <div class="form-info">
+            <div class="remember">
+              <input type="checkbox" id="remember-me" />
+              <label for="remember-me"> Remember Me </label>
+            </div>
+            <a href="#">Forget Password</a>
+          </div>
+        </form>
+        <div class="sign-with">
+          <p>Or Sign in With</p>
+        </div>
+        <div class="buttons">
+          <button>Facebook</button>
+          <button>Twitter</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS LINK  -->
+    <script src="index.js"></script>
+  </body>
+</html>
